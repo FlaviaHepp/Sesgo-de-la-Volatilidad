@@ -73,3 +73,52 @@ Soporte para:
 
 ## 👤Autora
 Flavia Hepp Proyecto de SQL aplicó un análisis de riesgo basado en eventos.
+
+***
+📊 **Cuando el volumen confirma la emoción del mercado**
+
+No todos los movimientos de precio son iguales.
+Algunos vienen acompañados de algo clave: **explosión de volumen**.
+
+👉 Analicé los días en que las acciones se mueven más de ±3%…
+y verifiqué si ese movimiento está respaldado por un volumen **más de 2x el promedio**.
+
+💡 **Insight clave:**
+Cuando el volumen se dispara en días de movimientos extremos, estamos frente a algo más que ruido:
+👉 **pánico o euforia real del mercado**.
+
+---
+
+📈 **¿Qué medí?**
+
+* Cambio diario absoluto (*|Close - Open| / Open*)
+* Volumen del día vs. promedio de 30 días
+* Identificación de eventos donde:
+
+  * Movimiento > 3%
+  * Volumen > 2x promedio
+
+---
+
+🧠 **¿Cómo interpretarlo?**
+
+* Movimiento fuerte + alto volumen → convicción del mercado
+* Movimiento fuerte + bajo volumen → posible señal débil
+* Picos de volumen → zonas de capitulación o euforia
+
+---
+
+⚡ **¿Por qué importa?**
+
+Porque permite diferenciar:
+
+* Movimientos “reales” vs. ruido
+* Posibles puntos de reversión (capitulación)
+* Breakouts con respaldo institucional
+
+---
+
+📌 Pregunta para la comunidad:
+¿Validan los movimientos de precio con volumen… o analizan ambos por separado?
+
+#QuantFinance #Trading #DataScience #StockMarket #Volume #PriceAction #Analytics #SQL
